@@ -9,6 +9,18 @@
             border-radius: 99px;
             text-decoration: none;
         }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 12px;
+        }
+
+        .card {
+            padding: 14px;
+            background: #f4f4f4;
+            border-radius: 8px;
+        }
+        
     </style>
 </head>
 <body>
@@ -31,5 +43,24 @@
         Contact: 
         <a href="mailto: slopez179@students.avc.edu">slopez179@students.avc.edu</a>
     </p>
+
+
+    <section class="grid">
+        <div class="card">
+            <h3>Education</h3>
+            <p>Computer Science student at Antelope Valley College.</p>
+        </div>
+
+        <div class="card">
+            <h3>Skills</h3>
+            <p>Learning HTML, CSS, and programming.</p>
+        </div>
+
+        <div class="card">
+            <h3>Interests</h3>
+            <p>Technology, music, and spending time with family.</p>
+        </div>
+    </section>
+
 </body>
 </html>
